@@ -44,35 +44,35 @@
               "style": {
                 "height": "21"
               },
-              "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/home.json"
+              "url": "https://raw.githubusercontent.com/loenishe/Loen/master/home.json"
             }, {
               "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/notifications.png",
               "text": "Notifications",
               "style": {
                 "height": "21"
               },
-              "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/notifications.json"
+              "url": "https://raw.githubusercontent.com/loenishe/Loen/master/MC.json"
             }, {
               "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/moments.png",
               "text": "Moments",
               "style": {
                 "height": "21"
               },
-              "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/moments.json"
+              "url": "https://raw.githubusercontent.com/loenishe/Loen/master/News.json"
             }, {
               "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/messages.png",
               "text": "Messages",
               "style": {
                 "height": "21"
               },
-              "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/messages.json"
+              "url": "https://raw.githubusercontent.com/loenishe/Loen/master/feedback.json"
             }, {
               "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/me.png",
               "text": "Me",
               "style": {
                 "height": "21"
               },
-              "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/me.json"
+              "url": "me.json"
             }]
           }
         }
