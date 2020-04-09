@@ -1,4 +1,4 @@
-{
+  {
   "$jason": {
     "head": {
       "title": "Jasonbase",
@@ -39,40 +39,40 @@
               "color": "#009efa"
             },
             "items": [{
-              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/home.png",
-              "text": "Home",
+              "image": "",
+              "text": "Вакансии",
               "style": {
                 "height": "21"
               },
               "url": "https://raw.githubusercontent.com/loenishe/Loen/master/home.json"
             }, {
-              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/notifications.png",
-              "text": "Notifications",
+              "image": "",
+              "text": "Мастер-Классы",
               "style": {
                 "height": "21"
               },
-              "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/notifications.json"
+              "url": "https://raw.githubusercontent.com/loenishe/Loen/master/MC.json"
             }, {
-              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/moments.png",
-              "text": "Moments",
+              "image": "",
+              "text": "Новости",
               "style": {
                 "height": "21"
               },
-              "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/moments.json"
+              "url": "https://raw.githubusercontent.com/loenishe/Loen/master/News.json"
             }, {
-              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/messages.png",
-              "text": "Messages",
+              "image": "",
+              "text": "Фидбэк",
               "style": {
                 "height": "21"
               },
-              "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/messages.json"
+              "url": "https://raw.githubusercontent.com/loenishe/Loen/master/feedback.json"
             }, {
-              "image": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/images/me.png",
-              "text": "Me",
+              "image": "",
+              "text": "Аккаунт",
               "style": {
                 "height": "21"
               },
-              "url": "https://raw.githubusercontent.com/Jasonette/Twitter-UI-example/master/me.json"
+              "url": "me.json"
             }]
           }
         }
