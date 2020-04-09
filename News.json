@@ -1,4 +1,4 @@
-  {
+{
   "$jason": {
     "head": {
       "title": "Jasonbase",
@@ -72,7 +72,7 @@
               "style": {
                 "height": "21"
               },
-              "url": "me.json"
+              "url": "https://raw.githubusercontent.com/loenishe/Loen/master/Me.json"
             }]
           }
         }
