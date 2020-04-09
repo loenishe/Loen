@@ -1,0 +1,81 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Jasonbase",
+      "actions": {
+        "visit": [
+          {
+            "{{#if /\\/edit/.test($jason.url)}}": {
+              "type": "$href",
+              "options": {
+                "url": "{{$jason.url.replace('/edit', '')}}",
+                "preload": {
+                  "background": "#ffffff"
+                }
+              }
+            }
+          },
+          {
+            "{{#else}}": {
+              "type": "$default"
+            }
+          }
+        ]
+      }
+    },
+    "body": {
+      "background": {
+        "type": "html",
+        "url": "http://career.narxoz.kz/profile/student/index",
+        "action": {
+          "trigger": "visit"
+        }
+      },
+      "footer": {
+          "tabs": {
+            "style": {
+              "background": "rgba(255,255,255,0.8)",
+              "color:disabled": "#cecece",
+              "color": "#009efa"
+            },
+            "items": [{
+              "image": "",
+              "text": "Вакансии",
+              "style": {
+                "height": "21"
+              },
+              "url": "https://raw.githubusercontent.com/loenishe/Loen/master/home.json"
+            }, {
+              "image": "",
+              "text": "Мастер-Классы",
+              "style": {
+                "height": "21"
+              },
+              "url": "https://raw.githubusercontent.com/loenishe/Loen/master/MC.json"
+            }, {
+              "image": "",
+              "text": "Новости",
+              "style": {
+                "height": "21"
+              },
+              "url": "https://raw.githubusercontent.com/loenishe/Loen/master/News.json"
+            }, {
+              "image": "",
+              "text": "Фидбэк",
+              "style": {
+                "height": "21"
+              },
+              "url": "https://raw.githubusercontent.com/loenishe/Loen/master/feedback.json"
+            }, {
+              "image": "",
+              "text": "Аккаунт",
+              "style": {
+                "height": "21"
+              },
+              "url": "me.json"
+            }]
+          }
+        }
+      }
+    }
+  }
