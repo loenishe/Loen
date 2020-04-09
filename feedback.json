@@ -26,7 +26,7 @@
     "body": {
       "background": {
         "type": "html",
-        "url": "http://career.narxoz.kz/article/index?ArticleSearch%5Bcategory_id%5D=2",
+        "url": "http://career.narxoz.kz/site/contact",
         "action": {
           "trigger": "visit"
         }
